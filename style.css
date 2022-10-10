@@ -1,0 +1,326 @@
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+body, ul, li, p{
+  background: #d1d1d1;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2em;
+}
+.flex{
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.apresentacao-menu{
+  align-items: flex-end;
+}
+.texto-apresentacao{
+  color: #8a8a8a;
+  border-radius: 10px;
+  padding: 80px;
+  box-shadow: inset -3px -3px 7px #ffffffb0, 
+  inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
+.nome-destaque{
+  color: #857770;
+  font-size: 50px;
+  padding-top: 40px;
+}
+.funcao-nome{
+  padding-left: 130px;
+}
+a{
+  text-decoration: none;
+  color: #857770;
+}
+.header{
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+.menu{
+  display: flex;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+.jeff{
+  flex-wrap: wrap;
+}
+.icones-redes{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 370px;
+}
+.icone{
+  border-radius: 10px;
+  box-shadow: inset -3px -3px 7px #ffffffb0, 
+    inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+  padding: 2px;
+  margin: 15px;
+  height: 40px;
+}
+.link{
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  width: 40px;
+}
+.menu, li{
+  margin-left: 10px;
+  max-width: auto;
+  min-width: 20px;
+}
+.menu, li a {
+  color: #857770;
+}
+li{
+  box-shadow:  2px 5px 5px #b2b2b2,
+             -2px -5px 5px #f0f0f0;
+  border-radius: 8px;
+  padding: 10px;
+}
+li:hover{
+  box-shadow:  2px 5px 5px #857770,
+             -2px -5px 5px #f3eae8;
+}
+.sobre{
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.sobre2{
+  width: 200px;
+  color: #857770;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: inset -3px -3px 7px #ffffffb0, 
+    inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
+.content{
+  /*Display flex para alinhar o conteudo*/
+  display: flex;
+  padding: 50px;
+  /*Flex direction para manter em linha*/
+  flex-direction: row;
+  /*justificando e alinhando ao centro o conteudo*/
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.jeff-image{
+  max-width: 450px;
+}
+.content2{
+  align-items: center;
+  max-width: auto;
+}
+.paragrafo, .paragrafo2{
+  text-align: justify;
+  padding-top: 50px;
+  max-width: 700px;
+  margin-left: 50px;
+  color: #8a8a8a;
+}
+.paragrafo{
+  padding-top: 150px;
+}
+.botoes{
+  display: flex;
+  font-size: 25px;
+  padding: 100px 0px 0px 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sobre-icone-email{
+  box-shadow:  2px 5px 5px #b2b2b2,
+             -2px -5px 5px #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+}
+.sobre-icone-email:hover{
+  box-shadow:  2px 5px 5px #857770,
+             -2px -5px 5px #f3eae8;
+}
+.sobre-icone-curriculo{
+  box-shadow:  2px 5px 5px #b2b2b2,
+             -2px -5px 5px #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+}
+.sobre-icone-curriculo:hover{
+  box-shadow:  2px 5px 5px #857770,
+             -2px -5px 5px #f3eae8;
+}
+.div-content{
+  margin: 100px;
+  color: #857770;
+}
+.div-content2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.icone-imagem{
+  align-items: center;
+}
+.icone-skills-imagem{
+  width: 600px;
+}
+.p{
+  padding: 20px;
+}
+.titulo-skills{
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-skills2{
+  width: 200px;
+  color: #857770;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: inset -3px -3px 7px #ffffffb0, 
+  inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
+.barra{
+  width: 400px;
+  height: 10px;
+  border-radius: 10px;
+  box-shadow: inset -3px -3px 7px #ffffffb0, 
+  inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
+.div-progress{
+  background: #857770;
+  width: 200px;
+  height: 10px;
+  border-radius: 10px;
+  animation: div-progress-animation 12s;
+}
+@keyframes div-progress-animation{
+  0% { width: 0%; }
+  
+  48% { width: 48%}
+  
+}
+.div-progress2{
+  background: #857770;
+  width: 195px;
+  height: 10px;
+  border-radius: 10px;
+  animation: div-progress2-animation 12s;
+}
+@keyframes div-progress2-animation{
+  0% { width: 0%; }
+  
+  45% { width: 45%}
+}
+.div-progress3{
+  background: #857770;
+  width: 182px;
+  height: 10px;
+  border-radius: 10px;
+  animation: div-progress3-animation 12s;
+}
+
+@keyframes div-progress3-animation{
+  0% { width: 0%; }
+  
+  30% { width: 30%}
+}
+.div-progress4{
+  background: #857770;
+  width: 102px;
+  height: 10px;
+  border-radius: 10px;
+  animation: div-progress4-animation 12s;
+}
+
+@keyframes div-progress4-animation{
+  0% { width: 0%; }
+  
+  40% { width: 40%}
+}
+.div-projetos{
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.div-projetos2{
+  width: 200px;
+  color: #857770;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: inset -3px -3px 7px #ffffffb0, 
+  inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+  align-items: center;
+}
+.divs-projetos-box{
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.div-lg{
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px #ffffffb0, 
+           3px 3px 5px rgba(94, 104, 121, 0.692);
+  padding: 20px;
+  margin: 50px;
+  text-align: justify;
+  color: #8a8a8a;
+}
+.div-lg:hover{
+  box-shadow:  2px 5px 5px #857770,
+             -2px -5px 5px #f3eae8;
+}
+.titulo-lg{
+  text-align: center;
+  color: #857770;
+}
+.texto-lg{
+  padding: 20px;
+}
+
+.div-relogio{
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px #ffffffb0, 
+          3px 3px 5px rgba(94, 104, 121, 0.692);
+  padding: 30px;
+  margin: 50px;
+  text-align: justify;
+  color: #8a8a8a;
+}
+.div-relogio:hover{
+  box-shadow:  2px 5px 5px #857770,
+             -2px -5px 5px #f3eae8;
+}
+.titulo-relogio{
+  text-align: center;
+  color: #857770;
+}
+.texto-relogio{
+  padding: 20px;
+}
+
